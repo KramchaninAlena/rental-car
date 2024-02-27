@@ -1,6 +1,6 @@
 import { CarCard } from 'components/CarCard/CarCard';
 import React from 'react';
-import { CatalogItem, CatalogList } from './CarList.styled';
+import { CatalogItem, CatalogList, LoadMore } from './CarList.styled';
 
 export const CarList = ({ cars }) => {
   return (
@@ -10,6 +10,7 @@ export const CarList = ({ cars }) => {
           <CarCard car={car} />
         </CatalogItem>
       ))}
+      <LoadMore>Load more</LoadMore>
     </CatalogList>
   );
 };

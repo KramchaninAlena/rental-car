@@ -7,6 +7,6 @@ font-size: 12px;
 color: #121417;
   max-width: 1214px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 50px 15px;
   
 `;

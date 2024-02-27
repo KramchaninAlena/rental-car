@@ -3,7 +3,7 @@ import vektor from './vector.svg'
 import { Img, ImgWrap, TitleStyle, TitleWrap, Text, Button, TextWrapper, IcoImage } from './CarCard.styled'
 
 export const CarCard = ({car}) => {
-    const { id, img, make, model, year, rentalPrice, address, rentalCompany, type, mileage, functionalities } = car
+    const { img, make, model, year, rentalPrice, address, rentalCompany, type, mileage} = car
   return (
     <div><ImgWrap>
     <Img src={img} alt="car" />
@@ -46,16 +46,16 @@ export const CarCard = ({car}) => {
       <li>
         <Text>
         {mileage}
-        <IcoImage src={vektor}  alt="Logo" />
+        {/* <IcoImage src={vektor}  alt="Logo" /> */}
         </Text>
       </li>
       <li>
       {/* {functionalities.map} */}
-        <Text>
+        {/* <Text>
           
         {functionalities[0]}
         <IcoImage src={vektor}  alt="Logo" />
-        </Text>
+        </Text> */}
       </li>
     </TextWrapper>
   </div>
